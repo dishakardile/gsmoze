@@ -1,1 +1,28 @@
-rinku is It student 
+
+PS D:\Rinku> mkdir part-A
+PS D:\Rinku> cd part-A
+PS D:\Rinku\part-A> git --version
+git version 2.37.3.windows.1
+PS D:\Rinku\part-A> git init
+PS D:\Rinku\part-A> git add .
+PS D:\Rinku\part-A> git status
+On branch master
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   abc.txt
+
+PS D:\Rinku\part-A> git commit -m "first commit"
+[master (root-commit) 3819e58] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 abc.txt
+PS D:\Rinku\part-A> git branch -M main
+PS D:\Rinku\part-A> git remote add origin https://github.com/dishakardile/RinkuKardile.git
+PS D:\Rinku\part-A> git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 231 bytes | 231.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/dishakardile/RinkuKardile.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS D:\Rinku\part-A> 
